@@ -1,0 +1,78 @@
+h2{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+body  .principal{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px, 0 px;
+
+}
+body {
+    position: relative;
+    padding-bottom: 20em;
+    min-height: 100vh;
+}
+header {
+    background-color: #0a141d
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+ul{
+    color: #fff;
+    text-align: center;
+}
+li{
+    text-align: center;
+}
+.pie-pagina {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 45px, 0 px;
+
+}
+.pie-pagina .grupo-1 .box h4 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+    
+}
+.pie-pagina .grupo-1 .box2 h4 {
+    color: #fff;
+    margin-bottom: 25px;
+    text-align: right;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box2 p {
+    color: #efefef;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.imagenheader{
+    width: 40px;
+    height: 40px;
+}
+.link{ 
+    color: #fff; 
+}
